@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
+        /*
         // INTEGERS - occupies 32 bits, width of 32
         int myMinIntValue = Integer.MIN_VALUE;
         int myMaxIntValue = Integer.MAX_VALUE;
@@ -27,11 +27,21 @@ public class Main {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = " + myMinLongValue);
         System.out.println("Long Maximum Value = " + myMaxLongValue);
-
+        
         int myTotal = (myMinIntValue / 2);
-
+        
         byte myNewByteValue = (byte) (myMinByteValue / 2); // need casting
-
+        
         short myNewShortValue = (short) (myMinShortValue / 2);
+        */
+        byte myByte = 123;
+
+        short myShort = 32345;
+
+        int myInt = 12345677;
+
+        long myLongTot = 50000 + (10 * (myByte + myShort + myInt));
+
+        System.out.println(myLongTot);
     }
-}
+} 
