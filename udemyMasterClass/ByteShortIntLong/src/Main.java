@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        int myValue = 10000;
 
         // INTEGERS
         int myMinIntValue = Integer.MIN_VALUE;
@@ -21,12 +20,17 @@ public class Main {
         System.out.println("short Maximum Value = " + myMaxShortValue);
         
         // LONG
-
         long myLongValue = 100L;
         System.out.println(myLongValue);
         long myMinLongValue = Long.MIN_VALUE;
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = " + myMinLongValue);
         System.out.println("Long Maximum Value = " + myMaxLongValue);
+
+        int myTotal = (myMinIntValue / 2);
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2); // need casting
+
+
     }
 }
