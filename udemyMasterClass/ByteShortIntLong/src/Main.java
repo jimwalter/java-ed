@@ -40,7 +40,7 @@ public class Main {
 
         int myInt = 12345677;
 
-        long myLongTot = 50000 + (10 * (myByte + myShort + myInt));
+        long myLongTot = 50000L + 10L * (myByte + myShort + myInt);
 
         System.out.println(myLongTot);
     }
