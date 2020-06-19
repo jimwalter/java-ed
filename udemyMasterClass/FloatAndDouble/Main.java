@@ -17,7 +17,10 @@ public class Main {
         System.out.println("myFloat = " + myFloat);
         System.out.println("myDouble = " + myDouble);
 
-        
-
+        // 3.29 Challenge
+        double myPounds = 200d;
+        double kiloPerPound = 0.45359237;
+        double myKilos = myPounds * kiloPerPound;
+        System.out.println(">>>>>> myKilos = " + myKilos);
     }
 }
