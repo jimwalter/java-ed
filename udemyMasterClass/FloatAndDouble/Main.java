@@ -9,5 +9,11 @@ public class Main {
         double myMaxDoubleVal = Double.MAX_VALUE;
         System.out.println("Double Min Val = " + myMinDoubleVal);
         System.out.println("Double Max Val = " + myMaxDoubleVal);
+
+        int myInt = 5;
+        float myFloat = (float) 5.25;
+        double myDouble = 5.25d;
+
+
     }
 }
