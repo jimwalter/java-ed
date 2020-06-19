@@ -10,10 +10,14 @@ public class Main {
         System.out.println("Double Min Val = " + myMinDoubleVal);
         System.out.println("Double Max Val = " + myMaxDoubleVal);
 
-        int myInt = 5;
-        float myFloat = (float) 5.25;
-        double myDouble = 5.25d;
+        int myInt = 5 / 3;
+        float myFloat = 5f / 3f;
+        double myDouble = 5.00 / 3.00;
+        System.out.println("myIntVal = " + myInt);
+        System.out.println("myFloat = " + myFloat);
+        System.out.println("myDouble = " + myDouble);
 
+        
 
     }
 }
