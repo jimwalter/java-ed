@@ -10,6 +10,7 @@ public class Main {
             // char
             // boolean
 
+        // Strings are not primitive (they're a class) but Java lets strings be used easily
         String myString = "This is a string";
         System.out.println("myString equal to : " + myString);
         
@@ -35,6 +36,9 @@ public class Main {
         lastString = lastString + doubleNum;
         System.out.println("LastString equal to : " + lastString);
 
+        // Strings are IMMUTABLE - can't change after it's declared. So when you reassign 
+            // a string (as above), Java creates a new string in memory and discards the old
 
+        
     }
 }
