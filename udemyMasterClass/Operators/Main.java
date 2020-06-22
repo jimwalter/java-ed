@@ -20,6 +20,16 @@ public class Main {
         
         result /= 2;
         System.out.println("my /= 2 expression equates to..." + result);
-        
+
+        // CONDITIONALS
+        boolean isAlien = false;
+        // double equal is equality
+        if (isAlien == false) {
+            System.out.println("It is not an alien");
+            System.out.println("And i'm scared of aliens");
+        }
+            
+
+
     }
 }
