@@ -2,9 +2,12 @@ public class Main {
 
     //main is a method
     public static void main(String[] args) {
-        
+
         // invoke calculate score method
         calculateScore(true, 5000, 5, 100);
+
+        boolean gameOver = true;
+        calculateScore(gameOver, 10000, 8, 200);
     }
 
     // new method for calculating score
