@@ -50,6 +50,17 @@ public class Main {
             System.out.println("either or both of conditions are true");
         }
 
+        // one equal sign is an assignment
+        // "equals to" operator is ==
+        int newVal = 50;
+        if (newVal == 50) {
+            System.out.println("This is true");
+        }
 
+        // always use equals to operator
+        boolean isCar = false;
+        if (isCar != true) {
+            System.out.println("This is not supposed to happen");
+        }
     }
 }
