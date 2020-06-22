@@ -12,11 +12,19 @@ public class Main {
     }
 
     // new method for calculating score
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
         if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
             System.out.println("You final score was : " + finalScore);
+            return finalScore;
         }
+        return -1;
     }
 
+
+    // VOID keyword is used when the method doesn't have a return
+    // if you want to return something from the method, use the data type
+
+    // altered calculateScore method to return values
+        // default for nothing to return is '-1'
 }
