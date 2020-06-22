@@ -7,7 +7,8 @@ public class Main {
         calculateScore(true, 5000, 5, 100);
 
         boolean gameOver = true;
-        calculateScore(gameOver, 10000, 8, 200);
+        int score = 10000;
+        calculateScore(gameOver, score, 8, 200);
     }
 
     // new method for calculating score
