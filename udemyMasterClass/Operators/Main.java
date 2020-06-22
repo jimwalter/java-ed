@@ -64,6 +64,10 @@ public class Main {
         }
 
         // TERNARY OPERATOR
+        // left of ? is condition
+        // first after ? is if condition is true
+        // first after : is if condition is false
+        
         boolean wasCar = isCar ? true : false;
         if (wasCar) {
             System.out.println("wasCar is true");
