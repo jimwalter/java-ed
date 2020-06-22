@@ -28,8 +28,11 @@ public class Main {
             System.out.println("It is not an alien");
             System.out.println("And i'm scared of aliens");
         }
-            
 
-
+        // demonstrate not equal
+        int topScore = 100;
+        if (topScore != 100) {
+            System.out.println("You got the top score!");
+        }
     }
 }
