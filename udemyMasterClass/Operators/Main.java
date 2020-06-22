@@ -32,7 +32,18 @@ public class Main {
         // demonstrate not equal
         int topScore = 100;
         if (topScore != 100) {
+            System.out.println("You  did not get the top score!");
+        }
+
+        // demonstrate inequality operators
+        if (topScore >= 100) {
             System.out.println("You got the top score!");
+        }
+
+        topScore = 80;
+        int secondTopScore = 60;
+        if (topScore > secondTopScore && topScore < 100) {
+            System.out.println("Greater than second top and less than 100");
         }
     }
 }
