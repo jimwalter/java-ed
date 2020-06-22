@@ -9,8 +9,6 @@ public class Main {
         double remainder1 = result1 % 40.00d;
         
         boolean bool1 = (remainder1 == 0) ? true : false;
-        System.out.println("is no remainder? : " + bool1);
-
         System.out.println("was remainder 0: " + bool1);
 
         if (!bool1) {
