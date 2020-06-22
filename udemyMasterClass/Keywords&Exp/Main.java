@@ -20,6 +20,5 @@ public class Main {
             int finalScore = score + (levelCompleted * bonus);
             System.out.println("You final score was : " + finalScore);
         }
-
     }
 }
