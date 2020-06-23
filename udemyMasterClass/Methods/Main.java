@@ -10,6 +10,7 @@ public class Main {
         // int score = 10000;
         // int highScore = calculateScore(gameOver, score, 8, 200);
         // System.out.println("You final score was : " + highScore);
+        
         int jackPosition = calcHighScorePosition(1500);
         displayHighScorePosition("jack", jackPosition);
     }
