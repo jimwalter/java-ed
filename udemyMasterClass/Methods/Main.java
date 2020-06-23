@@ -8,14 +8,14 @@ public class Main {
 
         boolean gameOver = true;
         int score = 10000;
-        calculateScore(gameOver, score, 8, 200);
+        int highScore = calculateScore(gameOver, score, 8, 200);
+        System.out.println("You final score was : " + highScore);
     }
 
     // new method for calculating score
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
         if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
-            System.out.println("You final score was : " + finalScore);
             return finalScore;
         }
         return -1;
@@ -26,5 +26,5 @@ public class Main {
     // if you want to return something from the method, use the data type
 
     // altered calculateScore method to return values
-        // default for nothing to return is '-1'
+        // default for nothing to return is '-1˛'
 }
