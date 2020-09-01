@@ -15,10 +15,16 @@ public class Main {
 
         int myIntVal = 5 / 3;
         float myFloatVal = 5f / 3f;
-        double myDoubleVal = 5d / 3d;
+        double myDoubleVal = 5.00 / 3.00;
         System.out.println("MyInt: " + myIntVal);
         System.out.println("MyFloat: " + myFloatVal);
         System.out.println("MyDouble: " + myDoubleVal);
 
+        // section challenge
+        double numberOfPounds = 200d;
+        double convertedKilos = numberOfPounds * 0.45359237d;
+        System.out.printf("Converted Kilos: " + convertedKilos);
+
+        double pi = 3.1_415_927d;
     }
 }
