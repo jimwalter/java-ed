@@ -18,12 +18,12 @@ public class Main {
         double myDoubleVal = 5.00 / 3.00;
         System.out.println("MyInt: " + myIntVal);
         System.out.println("MyFloat: " + myFloatVal);
-        System.out.println("MyDouble: " + myDoubleVal);
+        System.out.println("MyDouble: " + myDoubleVal);proj
 
         // section challenge
         double numberOfPounds = 200d;
         double convertedKilos = numberOfPounds * 0.45359237d;
-        System.out.printf("Converted Kilos: " + convertedKilos);
+        System.out.println("Converted Kilos: " + convertedKilos);
 
         double pi = 3.1_415_927d;
     }
