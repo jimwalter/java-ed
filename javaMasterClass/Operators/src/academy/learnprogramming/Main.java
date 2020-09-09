@@ -93,5 +93,20 @@ public class Main {
         if (wasCar) {
             System.out.println("wasCar is true");
         }
+
+        /* *********************
+         CHALLENGE FOR OPERATORS
+         *********************** */
+        System.out.println("***********************");
+        double myDub = 20.00d;
+        double mySecondDub = 80.00d;
+        double myResult = (myDub + mySecondDub) * 100.00d;
+        double myRemainder = myResult % 40.00d;
+        boolean isRemainderZero = (myRemainder == 0) ? true : false;
+        System.out.println("was remainder zero: " + isRemainderZero);
+        if (!isRemainderZero) {
+            System.out.println("Got some remainder: " + myRemainder);
+        }
+
     }
 }
