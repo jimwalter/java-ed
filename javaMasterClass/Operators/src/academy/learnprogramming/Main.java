@@ -1,7 +1,5 @@
 package academy.learnprogramming;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -67,9 +65,33 @@ public class Main {
             System.out.println("You got the high score!");
         }
 
-        int secondTopScore = 81;
-        if (topScore > secondTopScore && topScore < 100) {
+        // AND operator
+        int secondTopScore = 95;
+        if ((topScore > secondTopScore) && (topScore < 100)) {
             System.out.println("Greater than second top score and less than 100");
+        }
+
+        // OR operator
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the conditions are true");
+        }
+
+        // equality vs assignment operators
+        int newValue = 50;
+        if (newValue == 50) { // need a double op here for equality
+            System.out.println("This is true");
+        }
+
+        boolean isCar = false;
+        if (isCar) { // double equal otherwise it's type matches for boolean
+            System.out.println("This is not supposed to happen");
+        }
+
+        // TERNARY operator
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
         }
     }
 }
