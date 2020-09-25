@@ -18,7 +18,7 @@ public class Main {
         double myDoubleVal = 5.00 / 3.00;
         System.out.println("MyInt: " + myIntVal);
         System.out.println("MyFloat: " + myFloatVal);
-        System.out.println("MyDouble: " + myDoubleVal);proj
+        System.out.println("MyDouble: " + myDoubleVal);
 
         // section challenge
         double numberOfPounds = 200d;
